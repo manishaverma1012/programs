@@ -1,0 +1,17 @@
+#include<stdio.h>
+int addmult(int , int);
+int main()
+{
+	int a = 3 ,b = 4, k, l;
+	p = addmult(a,b);
+	q = addmult (a,b);
+	printf("%d%d\n",p , q);
+	return 0;
+}
+int addmult(int x , int y)
+{
+	int w, z ;
+    w = x + y ;
+	z = x * y;
+	return (w , z);
+}

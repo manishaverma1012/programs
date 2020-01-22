@@ -1,0 +1,8 @@
+a  = input('Enter the value:')
+b  = input('Enter the value:')
+sub = int(a) - int (b)
+mul = int (a) * int (b)
+div = int (a) // int (b)
+mod = int (a) % int (b)
+res = int (a) / int (b)
+print('subtraction of {0} and {1} is {2} , {3},{4} ,{5} and {6}'.format(a,b,sub,mul ,div,mod,res))
